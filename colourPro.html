@@ -285,39 +285,39 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎨 ColorCraft Pro</h1>
-            <p>Professional color picker and palette generator</p>
+            <h1>ColourCraft Pro</h1>
+            <p>Professional colour picker and palette generator</p>
         </div>
 
         <div class="main-grid">
             <div class="main-content">
                 <div class="card">
                     <div class="random-bar" id="randomBar">
-                        <span id="randomBarText">Click here to generate a random color</span>
+                        <span id="randomBarText">Click here to generate a random colour</span>
                         <div id="randomBarTooltip" class="random-bar-tooltip" style="display:none;">Click to generate a random color</div>
                     </div>
                     <div class="input-group">
                         <input type="color" class="color-input" id="colorInput" value="#3B82F6" style="border-radius:0; border:1px solid #000; height:60px; width:60px;">
                         <input type="text" class="text-input" id="hexInput" placeholder="#000000" value="#3B82F6">
-                        <button class="btn" id="eyedropperBtn" title="Pick color from screen">🖌️ Pick</button>
+                        <button class="btn" id="eyedropperBtn" title="Pick color from screen">colourPicker</button>
                     </div>
                 </div>
 
                 <div class="card">
-                    <h3 style="margin-bottom: 20px;">Color Information</h3>
+                    <h3 style="margin-bottom: 20px;">Colour Information</h3>
                     <div class="color-formats">
                         <div class="format-card">
-                            <h4>HEX <button class="copy-btn" onclick="copyFormat('hex')">📋</button></h4>
+                            <h4>HEX <button class="copy-btn" onclick="copyFormat('hex')">Copy</button></h4>
                             <div class="format-value" id="hexValue">#3B82F6</div>
                             <div class="copied-message" id="hexCopied" style="display: none;">Copied!</div>
                         </div>
                         <div class="format-card">
-                            <h4>RGB <button class="copy-btn" onclick="copyFormat('rgb')">📋</button></h4>
+                            <h4>RGB <button class="copy-btn" onclick="copyFormat('rgb')">Copy</button></h4>
                             <div class="format-value" id="rgbValue">59, 130, 246</div>
                             <div class="copied-message" id="rgbCopied" style="display: none;">Copied!</div>
                         </div>
                         <div class="format-card">
-                            <h4>HSL <button class="copy-btn" onclick="copyFormat('hsl')">📋</button></h4>
+                            <h4>HSL <button class="copy-btn" onclick="copyFormat('hsl')">Copy</button></h4>
                             <div class="format-value" id="hslValue">217°, 91%, 60%</div>
                             <div class="copied-message" id="hslCopied" style="display: none;">Copied!</div>
                         </div>
@@ -335,21 +335,21 @@
                     <h3 style="margin-bottom: 20px;">Actions</h3>
                     <div class="actions">
                         <button class="btn" onclick="saveColor()">
-                            ❤️ Save Color
+                            Save Colour
                         </button>
                         <button class="btn btn-secondary" onclick="copyFormat('hex')">
-                            📋 Copy HEX
+                            Copy HEX
                         </button>
                     </div>
                 </div>
 
                 <div class="card">
-                    <h3 style="margin-bottom: 20px;">Recent Colors</h3>
+                    <h3 style="margin-bottom: 20px;">Recent Colours</h3>
                     <div class="history-grid" id="historyGrid"></div>
                 </div>
 
                 <div class="card">
-                    <h3 style="margin-bottom: 20px;">Saved Colors</h3>
+                    <h3 style="margin-bottom: 20px;">Saved Colours</h3>
                     <div class="saved-colors" id="savedColors">
                         <p style="color: #888; font-size: 0.9rem;">No saved colors yet</p>
                     </div>
