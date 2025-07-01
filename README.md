@@ -35,7 +35,7 @@ ColourCraft Pro is a responsive, minimal web application built with HTML, CSS, a
 ## Project Structure
 
 ```
-ColourCraft-Pro/
+colourPro/
 ├── index.html      # Main application (self-contained)
 └── README.md       # This file
 ```
@@ -46,12 +46,12 @@ ColourCraft-Pro/
 
 ### 1. Clone this repository:
 ```bash
-git clone https://github.com/codesbyhimali/colourcraft-pro.git
+git clone https://github.com/codesbyhimali/colourpro.git
 ```
 
 ### 2. Navigate to the folder:
 ```bash
-cd colourcraft-pro
+cd colourpro
 ```
 
 ### 3. Open `index.html` in any modern browser (Chrome recommended).
